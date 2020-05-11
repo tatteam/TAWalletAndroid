@@ -2,8 +2,8 @@ package testcases;
 
 import org.testng.annotations.Test;
 import ApplicationScreens.LoginScreen;
+import Utilities.BaseClass;
 import Utilities.ExcelUtil;
-import testcases.BaseClass;
 
 import java.util.concurrent.TimeUnit;
 
@@ -36,7 +36,7 @@ public class LoginTest extends  BaseClass {
 			  System.out.println("LoginScreen Completed");
 			  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			  } 
-		 catch(Exception exp) {
+			  catch(Exception exp) {
 			  System.out.println("TestLogin Cause is.. "+exp.getCause());
 			  System.out.println("TestLogin Message is.. "+exp.getMessage());
 			  exp.printStackTrace(); 

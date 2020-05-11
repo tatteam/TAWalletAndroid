@@ -1,10 +1,11 @@
 package ApplicationScreens;
 
-import testcases.BaseClass;
 import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import Utilities.BaseClass;
 
 
 public class LoginScreen extends  BaseClass {
