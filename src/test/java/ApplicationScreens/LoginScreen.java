@@ -56,7 +56,6 @@ public class LoginScreen extends  BaseClass {
 		  { 
 			  driver.findElementById("com.ta.wallet.tawallet:id/button2").click();
 	          System.out.println("LoginButton clicked");
-	          Thread.sleep(5000);
 		  } 
 		  catch(Exception exp) 
 		  {

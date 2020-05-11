@@ -29,7 +29,6 @@ public class LoginTest extends  BaseClass {
 			  lp=new LoginScreen(); 
 			  System.out.println("LoginScreen started"+'\n');
 			  lp.AllowContactsAccessButton();
-			 // Thread.sleep(5000);
 			  lp.EnterDetails(username,password); 
 			  lp.Login();
 			  lp.VerifyWhetherLoggedintoScreen();
